@@ -1,0 +1,346 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    background-color: rgb(49, 49, 51);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+
+.chngecolor{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around; 
+    position: fixed;
+    width: 100%;
+    transition: .3s all linear;
+}
+
+nav img {
+    border-radius: 50px;
+}
+
+.nav{
+    display: none;
+}
+
+.nav a {
+    color: gray;  
+}
+
+.bar i{
+    display: flex;
+    color: white;
+    font-size: 24px;
+}
+
+
+.DROPDOWN {
+    color: gray;  
+    background: none;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+
+
+.insearch{
+    margin-right: 3px;
+    width: 46%;
+    padding: 7px 16px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.insearch:focus{
+    outline: 4px solid navy;
+}
+
+.search{
+    font-size: 18px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 7px 16px;
+}
+
+.search:hover{
+    color: white;
+    background-color: red;
+}
+
+.main2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.imgs{
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.main2 .imgs img{
+    width: 160px;
+    height: 118px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+
+.main3{
+    padding: 20px 0px;
+    margin-bottom: 60px;
+}
+
+.img{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main3 img{
+    height: 200px;
+    width: 284px;
+    border-radius: 15px;
+}
+
+
+.main4{
+    background-image: url("https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/04/moutain-bike.jpg");
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-attachment: fixed;
+    padding: 0px 50px;
+    justify-content: center;
+}
+
+.main5{
+    background-image: url("https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/04/city-bike.jpg");
+    color: white;
+    height: 500px;
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 50px;
+    justify-content: center;
+}
+
+
+.main6{
+    background-image: url("https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/04/speciality-bike.jpg");
+    color: white;
+    height: 500px;
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 50px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.star{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.star i{
+    color: orange;
+}
+
+.btn{
+    border: none;
+    background-color: red;
+    color: white;
+    width: 100px;
+    padding: 10px 16px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    background-attachment: fixed;
+
+}
+
+ /* section 5 */
+/* .main7{
+
+}  */
+
+.card1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+.card1 img{
+    border-radius: 10px;
+    width: 300px;
+    height: 230px;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.card2 img{
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+
+.card3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card3 i{
+    color: rgb(250, 172, 25);
+}
+
+.card3 p{
+    padding: 10px 0px;
+}
+
+.card3 img{
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+/* section 7 */
+.main8{
+    background-image: url("https://websitedemos.net/cycle-shop-02/wp-content/uploads/sites/789/2021/04/city-bike.jpg");
+    color: white;
+    height: 500px;
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+
+.star1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links i{
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* section 8*/
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 20px;
+}
+
+
+
+@media only screen and (min-width:950px) {
+    .bar{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .main2{
+        flex-direction: row;
+    }
+    .img{
+        flex-direction: row;
+    }
+    
+
+
+    .card1{
+        flex-direction: row;
+    }
+    .card2{
+        flex-direction: row;
+    }
+
+
+    .card3{
+        flex-direction: row;
+    }
+
+    footer{
+    flex-direction: row;
+    }
+}
